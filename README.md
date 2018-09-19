@@ -4,5 +4,6 @@ To start:
 
 ```
 pip install -r requirements.txt
-gunicorn app:api
+python init_db.py # if running for the first time
+gunicorn app:api  # start server
 ```
